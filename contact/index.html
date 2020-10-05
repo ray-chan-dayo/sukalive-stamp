@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>ページ名 | サイト名</title>
+<meta name="description" content="サイトの説明文">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="canonical" href="あなたのサイトURL">
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:title" content="ページタイトル" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL">
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類">
+<meta name="twitter:site" content="@ユーザー名">
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/queries.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:500" rel="stylesheet">
+</head>
+
+<body>
+<header class="container-fluid mb-3 mb-md-0">
+  <!-- 営業時間 -->
+  <div class="d-md-flex justify-content-between">
+    <div class="col-8 col-lg-3 d-none d-md-block top-stitch rounded-bottom">
+      <p class="mb-0">OPEN 07:00 - CLOSE 22:00 (LO.21:30)</p>
+      <p class="mb-0">LUNCH TIME 11:30 - 14:00 (LO.13:30)</p>
+    </div>
+    <!-- SNSアイコン -->
+    <div class="mt-2 ml-auto float-right float-md-none">
+      <!-- Twitter -->
+      <a id="twitter" href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); 
+					return false;"><img src="../img/sns.svg" alt="" style="width: 35px; height: 35px;" class="bg-dark rounded">
+      </a>
+      <!-- Facebook -->
+      <a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); 
+					return false;" target="blank"><img src="../img/sns.svg" alt="" style="width: 35px; height: 35px;">
+      </a>
+      <!-- instagram -->
+      <a id="instagram" href="https://www.instagram.com/◯◯◯◯◯" target="blank"><img src="../img/sns.svg" alt="" style="width: 35px; height: 35px;"></a>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-white pr-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="ナビゲーションの切替">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-header">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+        <li class="nav-item"><a class="nav-link" href="./">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- トップ画像 -->
+<div class="jumbotron-fluid position-relative main-image p-0">
+  <!-- ロゴ -->
+  <div class="logo-mark bg-dark position-absolute">
+    <img src="../img/logo-mark-wt.png" alt="ロゴマーク" class="position-absolute">
+  </div>
+  <!-- トップ画像内文字 -->
+  <div class="text-white position-absolute main-txt">
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style
+      <br>component for calling extra attention to featured content or information.</p>
+  </div>
+</div>
+
+
+<nav aria-label="breadcrumb" class="pl-4">
+  <ol class="breadcrumb px-0 pb-0 m-0">
+    <li class="breadcrumb-item"><a href="../index.html">HOME</a></li>
+    <li class="breadcrumb-item">CONTACT</li>
+  </ol>
+</nav>
+
+	<!-- コンタクトフォーム -->
+	<div class="container py-5">
+		<h1 class="text-center display-3 title py-3 pb-sm-5">CONTACT</h1>
+		<div class="row">
+			<div class="offset-xl-4 offset-lg-2 col-xl-8 col-lg-10 mx-auto">
+				<form>
+					<div class="form-group row">
+						<label for="InputName" class="col-sm-4 col-form-label my-auto">お名前</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="InputName" placeholder="入力してください">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="InputNameKana" class="col-sm-4 col-form-label my-auto">フリガナ</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="InputNameKana" placeholder="入力してください">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="InputEmail" class="col-sm-4 col-form-label my-auto">メールアドレス</label>
+						<div class="col-sm-8">
+							<input type="email" class="form-control" id="InputEmail" placeholder="入力してください">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="InputTel" class="col-sm-4 col-form-label my-auto">Tel</label>
+						<div class="col-sm-8">
+							<input type="tel" class="form-control" id="InputTel" placeholder="入力してください">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="InputNumberOfPeople" class="col-sm-4 col-form-label my-auto">人数</label>
+						<div class="col-sm-4">
+							<input type="number" class="form-control w-50 InputNumber" id="InputNumberOfPeople" placeholder="">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-4 col-form-label my-auto">ご予約希望日</label>
+						<div class="col-sm-8">
+							<label for="InputDate" class="col-sm-4 col-form-label my-auto">日付</label>
+							<input type="date" class="form-control" id="InputDate">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="offset-sm-4 col-sm-8">
+							<label for="InputTime" class="col-sm-4 col-form-label my-auto">時間</label>
+							<input type="Time" class="form-control" id="InputTime">
+						</div>
+					</div>
+					<div class="form-btn text-center">
+						<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="Check">
+						<label class="form-check-label" for="Check"><small>個人情報保護に同意する</small></label>
+						</div>
+						<button type="submit" class="btn btn-secondary btn-lg px-5">送信</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- TEL・E-Mail -->
+	<div class="zigzag mb-0 text-white">
+		<div class="container-fulid py-5">
+			<div class="text w-75 mx-auto">
+				<h3>ご予約はお電話やメールでも受け付けています。</h3>
+				<p>
+					親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+					なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、
+					いくら威張っても、そこから飛び降りる事は出来まい。
+				</p>
+				<br >
+				<h4 class="d-lg-inline pr-3">TEL : 03-1234-5678</h4>
+				<h4 class="d-lg-inline">E-Mail : info@example.com</h4>
+			</div>
+		</div>
+	</div>
+	
+<!-- 下部コンテンツ -->
+<div class="container py-5">
+  <div class="row pt-5">
+    <!-- アクセス -->
+    <div class="col-12 col-lg-7">
+      <div class="container px-0">
+        <h2 class="display-4 text-center pb-3">ACCSESS</h2>
+        <div class="mb-3 text-center">
+          <p class="mb-0">アクセス：JR「浜松町」下車&ensp;<br class="d-block d-md-none">南口改札&ensp;徒歩12分</p>
+          <p class="mb-0">都営地下鉄三田線「芝公園」&ensp;<br class="d-block d-md-none">(I05)下車&ensp;徒歩2分</p>
+          <p>都営地下鉄浅草線・大江戸線「大門」&ensp;<br class="d-block d-md-none">(A09・E20)下車&ensp;徒歩5分</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12963.312118305756!2d139.7671248!3d35.6812362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1559551150824!5m2!1sja!2sjp" allowfullscreen></iframe>
+
+      </div>
+    </div>
+    <!-- 店舗情報 -->
+    <div class="col-12 col-lg-5">
+      <div class="stitch text-white">
+        <img src="../img/template-logo.png" alt="フッターロゴ" class="mb-4">
+        <p class="text-center h4 mb-4"><a href="#" class="text-white">http://example.com/</a></p>
+        <hr class="bg-white my-lg-4">
+        <address class="h5 font-weight-bold">
+          <p>店舗名：SAMPLE SHOP</p>
+          <p>住所：東京都港区芝8丁目0-0<br>ビジネスビル1F</p>
+          <p>ご予約・お問い合わせ</p>
+          <p>電話番号：03-1234-5678</p>
+          <p>E-Mail：info@example.com</p>
+        </address>
+        <hr class="bg-white my-lg-4">
+        <div class="h4 font-weight-bold">
+          <p>OPEN 07:00 - CLOSE 22:00 (LO.21:30)</p>
+          <p>LUNCH TIME<br>11:30 - 14:00 (LO.13:30)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- フッター -->
+<footer class="py-3 m-0 zigzag-copy">
+  <p class="text-center mb-0"><small class="text-white">20XX &copy; あなたのサイト名 All Right Reserved.</small></p>
+</footer>
+<!-- javascript はここから -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
