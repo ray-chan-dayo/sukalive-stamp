@@ -104,7 +104,7 @@ header a,
 /* ギザギザ線 */
 .zigzag {
   position: relative;
-  margin: 5% 0;
+  /*margin: 5% 0;*/
   padding: 0;
   background-color: #a9a9a9;
 }
@@ -127,12 +127,13 @@ header a,
   bottom: -60px;
   background: linear-gradient(155deg, #9ADCFE 30px, transparent 0), linear-gradient(205deg, #9ADCFE 30px, transparent 0);
   background-size: 60px 60px;
+  background-color: #EE6867;
 }
 
 /* 薄い背景のギザギザ線 */
 .light-zigzag {
   position: relative;
-  margin: 5% 0 0;
+  /*margin: 5% 0 0;*/
   padding: 0;
   background-color: #f8f9fa;
 }
@@ -282,9 +283,9 @@ input[type]:focus {
     left: 5%;
   }
 
-  .zigzag {
+  /*.zigzag {
     margin: 10% 0;
-  }
+  }*/
 
   .light-zigzag {
     margin: 10% 0 0;
@@ -339,10 +340,10 @@ input[type]:focus {
     left: 25%;
   }
 
-  .zigzag,
+  /*.zigzag,
   .light-zigzag {
     margin: 15% 0;
-  }
+  }*/
 
   .stitch img {
     width: 100%;
@@ -356,10 +357,14 @@ input[type]:focus {
   color:#000;
   background-color:#9ADCFE;
 }
+.ray-color-red {
+  color:#000;
+  background-color:#EE6867;
+}
 .party-title{
   background-color:#fff;
   border-radius:37px;
   text-align:center;
-  margin: 10px auto;
+  margin: 50px auto;
   padding: 10px 50px;
 }
