@@ -1,4 +1,40 @@
+/* TOPの画像 */
 .sarujima-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kannon-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shizen-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bijutsukan-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mikasa-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wall-art-image {
     width: 100%;
     height: 700px;
     background-image: url("../img/dairy-food-1.jpg");
@@ -9,6 +45,7 @@
     width: 90%;
     max-width: 1640px;
 }
+/* TOPのテキスト */
 .main-txt {
     display: flex;
     align-items: center;
@@ -24,12 +61,10 @@
 }
 
 /* ギザギザ線 */
-
 .location-zigzag {
     position: relative;
     padding: 0;
 }
-
 .location-zigzag::before,
 .location-zigzag::after {
   position: absolute;
