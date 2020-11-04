@@ -367,4 +367,5 @@ input[type]:focus {
   text-align:center;
   margin: 50px auto;
   padding: 10px 50px;
+  display: inline-flex;
 }
