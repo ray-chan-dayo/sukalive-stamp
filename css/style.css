@@ -27,19 +27,17 @@ a:hover {
 }
 
 .container,
-.container-fulid {
+.container-fluid {
   overflow: hidden;
+  padding: 0 10%;
+}
+@media screen and (max-width: 720px) {
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
-/* 見出しを太字に */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold !important;
-}
 
 /* 英字タイトルをWEBフォントに */
 header a,
@@ -73,8 +71,14 @@ header a,
   color: #fff;
   text-align: center;
   font-weight: bold;
+  font-size: 12px;
 }
-
+.nav-link {
+  color: #000 !important;
+  font-size: 21px;
+  border: #000 solid 0.2px;
+  padding: 12px 0;
+}
 .top-stitch p {
   margin: 0;
   padding: 0;
@@ -167,7 +171,7 @@ header a,
 .zigzag-copy {
   position: relative;
   padding-top: 5%;
-  background-color: #a9a9a9;
+  background-color: #ffff00;
 }
 
 .zigzag-copy::before {
@@ -176,10 +180,27 @@ header a,
   height: 60px;
   content: "";
   top: -60px;
-  background: linear-gradient(45deg, #a9a9a9 30px, transparent 0), linear-gradient(315deg, #a9a9a9 30px, transparent 0);
+  background: linear-gradient(45deg, #ffff00 30px, transparent 0), linear-gradient(315deg, #ffff00 30px, transparent 0);
   background-size: 60px 60px;
 }
-
+.footer-content {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #000;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text {
+  text-align: start;
+  margin: 20px;
+}
 /* ------------------------------
 地図サイズ
 --------------------------------- */
@@ -368,4 +389,5 @@ input[type]:focus {
   margin: 50px auto;
   padding: 10px 50px;
   display: inline-flex;
+  font-size: 56px;
 }

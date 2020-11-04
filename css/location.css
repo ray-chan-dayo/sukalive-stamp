@@ -1,0 +1,78 @@
+.sarujima-image {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/dairy-food-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location-container {
+    width: 90%;
+    max-width: 1640px;
+}
+.main-txt {
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.lead {
+    font-size: 65px;
+    margin-bottom: 0;
+}
+
+/* ギザギザ線 */
+
+.location-zigzag {
+    position: relative;
+    padding: 0;
+}
+
+.location-zigzag::before,
+.location-zigzag::after {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  content: "";
+}
+.location-zigzag::before {
+    top: -60px;
+    background: linear-gradient(45deg, #9ADCFE 30px, transparent 0), linear-gradient(315deg, #9ADCFE 30px, transparent 0);
+    background-size: 60px 60px;
+    background-color: #EE6867;
+}
+.location-zigzag::after {
+    bottom: -60px;
+    background: linear-gradient(135deg, #9ADCFE 30px, transparent 0), linear-gradient(225deg, #9ADCFE 30px, transparent 0);
+    background-size: 60px 60px;
+    background-color: #EE6867;
+}
+.location-zigzag-top {
+    top: calc(80px);
+}
+.location-zigzag-top::before {
+    top: -60px;
+    background: linear-gradient(45deg, #9ADCFE 30px, transparent 0), linear-gradient(315deg, #9ADCFE 30px, transparent 0);
+    background-size: 60px 60px;
+}
+.location-zigzag-top::after {
+    bottom: -60px;
+    background: linear-gradient(135deg, #9ADCFE 30px, transparent 0), linear-gradient(225deg, #9ADCFE 30px, transparent 0);
+    background-size: 60px 60px;
+    background-color: #EE6867;
+}
+
+.introduction-text {
+    text-align: start;
+    font-size: 30px;
+}
+
+.location-content {
+    width: 100%;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
