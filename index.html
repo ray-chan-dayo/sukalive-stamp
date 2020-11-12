@@ -40,14 +40,14 @@
     <div class="mt-2 ml-auto float-right float-md-none">
       <!-- Twitter -->
       <a id="twitter" href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); 
-					return false;"><img src="img/sns.svg" alt="" style="width: 35px; height: 35px;" class="bg-dark rounded">
+					return false;"><img src="img/Twitter_Logo_White_On_Blue.png" alt="" style="width: 35px; height: 35px;" class="bg-dark rounded">
       </a>
       <!-- Facebook -->
       <a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); 
-					return false;" target="blank"><img src="img/sns.svg" alt="" style="width: 35px; height: 35px;">
+					return false;" target="blank"><img src="img/FB-f-Logo__blue_100.png" alt="" style="width: 35px; height: 35px;">
       </a>
       <!-- instagram -->
-      <a id="instagram" href="https://www.instagram.com/◯◯◯◯◯" target="blank"><img src="img/sns.svg" alt="" style="width: 35px; height: 35px;"></a>
+      <a id="instagram" href="https://www.instagram.com/◯◯◯◯◯" target="blank"><img src="img/instagram.png" alt="" style="width: 35px; height: 35px;"></a>
     </div>
   </div>
   <nav class="navbar navbar-expand-md navbar-light bg-white pr-0">
@@ -80,13 +80,13 @@
 
 <!-- パーティプラン -->
 <div class="zigzag ray-color-blue entry">
-  <div class="container py-5">
-    <div class="row py-5">
+  <div class="container py-5" id="party-wrap">
+    <div class="row py-5 party-content">
         <h2 class="party-title h3">スタンプラリーの参加方法</h2>
-        <h3>参加無料</h3>
-        <p>※通信料、観覧料、駐車場料金などは自己負担していただきます。</p>
-        <p>横須賀市内外問わず、どなたでおスタンプラリーへのご参加は可能です。</p>
-        <p>ただし、商品へのご応募は、スマートフォン等１台につき1人のみ可能です。</p>
+        <p class="top" id="participation-text">参加無料</p>
+        <p class="note top">※通信料、観覧料、駐車場料金などは自己負担していただきます。</p>
+        <p class="party-font top">横須賀市内外問わず、どなたでおスタンプラリーへのご参加は可能です。</p>
+        <p class="party-font top">ただし、商品へのご応募は、スマートフォン等１台につき1人のみ可能です。</p>
         <div class="order">
           <div class="order-title">
             <img src="img/1.png" alt="1">
@@ -174,7 +174,7 @@
             <img src="img/7.png" alt="1">
             <p>撮影した写真をSNS（Instagram、Twitter、Facebook）に#すかりぶをつけて投稿する</p>
           </div>
-          <div class="">
+          <div class="order-text">
             <p class="tag">#すかりぶ</p>
             <p>↑をコピペしてご利用ください。</p>
           </div>
@@ -193,7 +193,7 @@
             <img src="img/9.png" alt="1">
             <p>応募フォームに必要事項を入力し、送信</p>
           </div>
-          <div class="order-text">
+          <div class="order-text check-list">
             <p>※送信前に確認してください。※</p>
             <p>☑️　すかりぶ登録はしましたか？</p>
             <p>☑️　アプリについて、ユーザー登録はしましたか？</p>
@@ -203,8 +203,8 @@
             <p>抽選発表は、発送をもって代えさせていただきます。（2021年1月下旬予定）</p>
           </div>
         </div>
-        <p>【応募締切】2020年12月27日（日）発信分</p>
-        <p>（抽選対象者は、スタンプ4個以上集めているかつ、応募フォームで必要事項を入力された方）</p>
+        <p class="dead-line">【応募締切】2020年12月27日（日）発信分</p>
+        <p class="dead-line-text">（抽選対象者は、スタンプ4個以上集めているかつ、応募フォームで必要事項を入力された方）</p>
     </div>
   </div>
 </div>
@@ -216,8 +216,8 @@
   <div class="container text-center">
     <h2 class="party-title h3">抽選でプレゼントする商品一覧</h2>
     <div class="mb-3 text-center">
-      <p class="mb-0">決定次第お知らせします。</p>
-      <p class="mb-0">写真と当選者数などを後程掲載予定です。</p>
+      <p class="notice">決定次第お知らせします。</p>
+      <p class="">写真と当選者数などを後程掲載予定です。</p>
       <p>チラシ発行までには、数件は載せる予定です。</p>
     </div>
   </div>
@@ -226,7 +226,7 @@
 
 <div class="zigzag ray-color-blue">
   <div class="container text-center">
-    <h2 class="party-title h3">スタンプ設置マップ</h2>
+    <h2 class="party-title h3">スタンプ設置MAP</h2>
   </div>
   <!-- 地図 -->
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12963.312118305756!2d139.7671248!3d35.6812362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1559551150824!5m2!1sja!2sjp" allowfullscreen></iframe>
@@ -244,72 +244,86 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-1.jpg" alt="" class="border card-img-top">
+          <img src="img/kannon.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">DAILY SPECIAL</h3>
-            <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
+            <h3 class="card-title">観音崎自然博物館</h3>
+            <p class="card-text mb-lg-4">照葉樹の豊かな森と東京湾唯一の岩礁海岸に囲まれ、多様性に富んだ森と海の自然を有しています。当館では、観音崎から、東京湾集水域、三浦半島の自然を紹介し、人と自然をつなぐかけはしとなる博物館を目指しています。</p>
+            <p class="card-text mb-lg-4">設置時間：</p>
+            <p class="card-text mb-lg-4">【開館時間・休館情報】<br>
+              9:00～17:00（入館は16：30まで）、11/30（月）、12/4（月）、14（月）、21（月）、22日（火）、23日（水）</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/kannon.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-2.jpg" alt="" class="border card-img-top">
+          <img src="img/shizen.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">LUNCH SET</h3>
-            <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
+            <h3 class="card-title">自然・人文博物館</h3>
+            <p class="card-text mb-lg-4">三浦半島を中心とした自然と歴史の博物館です。ナウマンゾウの全身骨格模型や埴輪（弾琴男子椅座像）をはじめ、三浦半島の自然と人の歴史をわかりやすく展示しています。</p>
+            <p class="card-text mb-lg-4">設置時間：</p>
+            <p class="card-text mb-lg-4">【開館時間・休館情報】<br>
+              9:00～17:00、12/7(月)、14(月)、21(月)休館</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/shizen.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-3.jpg" alt="" class="border card-img-top">
+          <img src="img/bijutukan.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">MORNING SET</h3>
-            <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
+            <h3 class="card-title">横須賀美術館</h3>
+            <p class="card-text mb-lg-4">目の前には東京湾が広がる三浦半島屈指のロケーションに立地する海辺の美術館です。展覧会は多彩な企画展の他、日本の近現代美術約5,000点の中から選んだ所蔵品展、谷内六郎館を常設展示しています。全国の"デートスポット"としてふさわしい「恋人の聖地」にも認定されていて、アートと自然を感じることができます。</p>
+            <p class="card-text mb-lg-4">設置時間：</p>
+            <p class="card-text mb-lg-4">【開館時間・休館情報】<br>
+              10:00 -18:00、12/7(月)休館</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/bijutsukan.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-4.jpg" alt="" class="border card-img-top">
+          <img src="img/wall-art.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">SNACK</h3>
+            <h3 class="card-title">世界三大記念艦「三笠」</h3>
             <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/mikasa.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-5.jpg" alt="" class="border card-img-top">
+          <img src="img/wall-art.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">DESSERT</h3>
+            <h3 class="card-title">猿島</h3>
             <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/sarushima.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4 border border-0">
-          <img src="img/menu-image-6.jpg" alt="" class="border card-img-top">
+          <img src="img/wall-art.jpg" alt="" class="border card-img-top">
           <div class="card-body">
-            <h3 class="card-title">DRINK</h3>
-            <p class="card-text mb-lg-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど</p>
+            <h3 class="card-title">ウォールアート「YOKOSUKA GENIC STREET」</h3>
+            <p class="card-text mb-lg-4">11月に誕生した「撮れ高最強」フォトジェニックスポット
+              「YOKOSUKA GENIC STREET」。
+              友達や家族、大切な人と写真を撮りに来ませんか？
+              撮った写真に「#スカジェニ」をつけて投稿したSNSの画面を見せると、
+              割引を受けらたり賞品がもらえる「#スカジェニ」SNS投稿キャンペーンを実施中。</p>
+            <p class="card-text mb-lg-4">設置時間：</p>
             <div class="text-center">
-              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="sample/index.html" role="button">メニューをみる</a>
+              <a class="btn btn-outline-secondary d-block d-md-inline-block mb-2 mb-md-0" href="location/wall-art.html" role="button">詳細を見る</a>
             </div>
           </div>
         </div>
@@ -318,23 +332,26 @@
   </div>
 </div><!-- /.album	-->
 
-<!-- 店内紹介 -->
 <div class="zigzag py-5 ray-color-blue">
   <div class="container text-center">
     <h2 class="party-title h3 text-center">お問い合わせ</h2>
-    <p class="mx-auto mb-5 col-md-10">
-      親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-      なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
-    </p>
+    <p class="mx-auto mb-5 col-md-10 q-title">スタンプラリーの全体について</p>
+    <p class="mx-auto mb-5 col-md-10">横須賀市経営企画部企画調整課</p>
+    <p class="mx-auto mb-5 col-md-10">〒238-8500  横須賀市小川町１１番地</p>
+    <p class="mx-auto mb-5 col-md-10">Tell：046-822-8221</p>
+    <p class="mx-auto mb-5 col-md-10">E-mail：sukalive@city.yokosuka.kanagawa.jp</p>
+    <p class="mx-auto mb-5 col-md-10 q-title">スタンプラリーアプリについて</p>
+    <p class="mx-auto mb-5 col-md-10">スマ歩スタンプラリーガイド（https://www.hearts-tech.co.jp/services/sp-stamp-app/sp-stamp-app-guide/）</p>
+    <p class="mx-auto mb-5 col-md-10">スタンプラリーアプリの不具合のお問い合わせは、下記にお願いします。</p>
+    <p class="mx-auto mb-5 col-md-10">SupportStamprally@hearts-tech.co.jp</p>
   </div>
 </div>
 <div class="py-5 ray-color-red">
   <div class="container text-center">
     <h2 class="party-title h3 text-center">主催・協力</h2>
-    <p class="mx-auto mb-5 col-md-10">
-      親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-      なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
-    </p>
+    <p class="mx-auto mb-5 col-md-10 q-title">主催　横須賀市企画調整課</p>
+    <p class="mx-auto mb-5 col-md-10 q-title">協力</p>
+    <p class="mx-auto mb-5 col-md-10 q-title">観音崎自然博物館、公益財団法人 三笠保存会、トライアングル株式会社、横須賀市公園管理課、横須賀市自然・人文博物館、横須賀美術館（50音順）</p>
   </div>
 </div>
 
