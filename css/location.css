@@ -78,13 +78,13 @@
     top: -60px;
     background: linear-gradient(45deg, #9ADCFE 30px, transparent 0), linear-gradient(315deg, #9ADCFE 30px, transparent 0);
     background-size: 60px 60px;
-    background-color: #EE6867;
+    background-color: #febbde;
 }
 .location-zigzag::after {
     bottom: -60px;
     background: linear-gradient(135deg, #9ADCFE 30px, transparent 0), linear-gradient(225deg, #9ADCFE 30px, transparent 0);
     background-size: 60px 60px;
-    background-color: #EE6867;
+    background-color: #febbde;
 }
 .location-zigzag-top {
     top: calc(80px);
@@ -98,18 +98,24 @@
     bottom: -60px;
     background: linear-gradient(135deg, #9ADCFE 30px, transparent 0), linear-gradient(225deg, #9ADCFE 30px, transparent 0);
     background-size: 60px 60px;
-    background-color: #EE6867;
+    background-color: #febbde;
 }
 
 .introduction-text {
     text-align: start;
     font-size: 30px;
 }
-
+.site {
+    font-size: 3rem;
+}
 .location-content {
     width: 100%;
 }
-
+.sub-title {
+    display: block;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
 .pt-40 {
     padding-top: 40px;
 }
