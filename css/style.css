@@ -267,9 +267,9 @@ iframe {
 .top-title {
   margin-bottom: 3rem;
 }
-.top {
+/* .top {
   margin-left: 10rem;
-}
+} */
 .party-title{
   background-color:#fff;
   border-radius:50px;
@@ -352,6 +352,12 @@ iframe {
   font-size: 2rem;
   margin-top: 2rem;
 }
+#pc {
+  display: block;
+}
+#sp {
+  display: none;
+}
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 SAMPLEページ
@@ -408,11 +414,6 @@ input[type]:focus {
   .logo-mark {
     left: 5%;
   }
-
-  .main-txt {
-    left: 5%;
-  }
-
   /*.zigzag {
     margin: 10% 0;
   }*/
@@ -446,6 +447,69 @@ input[type]:focus {
     top: -10px;
     width: 100px;
     height: 100px;
+  }
+  .party-title {
+    font-size: 1rem;
+  }
+  .party-font {
+    font-size: 1rem;
+  }
+  #participation-text {
+    font-size: 1rem;
+  }
+  .order-title {
+    margin-top: 2rem;
+  }
+  .order-title img {
+    width: 30%;
+  }
+  .order-title p {
+    font-size: 1rem;
+  }
+  .order-text {
+    font-size: 1rem;
+  }
+  .order-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .order-img img {
+    width: 80%;
+    margin: 1rem 0;
+  }
+  .dead-line {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .q-title {
+    font-size: 1rem;
+  }
+  .footer-content {
+    font-size: 1rem;
+  }
+
+  .yumeaka-banner {
+    width: 100%;
+  }
+  #pc {
+    display: none;
+  }
+  #sp {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .back-bk {
+    color: white;
+    background-color: black;
+    padding: 4px 20px;
+    margin-top: 3rem;
+  }
+  .arrow {
+    width: 20% !important;
   }
 }
 

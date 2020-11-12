@@ -119,3 +119,17 @@
 .pt-40 {
     padding-top: 40px;
 }
+
+/* 小デバイス（横向きモバイル, 768px 未満）
+============================================== */
+@media screen and (max-width: 767.98px) {
+    .lead {
+        font-size: 2rem;
+    }
+    .introduction-text {
+        font-size: 1rem;
+    }
+    .yumeaka-banner {
+        width: 100%;
+    }
+}
