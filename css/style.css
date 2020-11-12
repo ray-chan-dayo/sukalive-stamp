@@ -320,6 +320,9 @@ iframe {
   margin-right: auto;
   margin-left: auto;
 }
+.order-img a {
+  margin: 0 2rem;
+}
 .sns img {
   margin: 0 2rem;
   max-width: 160px
