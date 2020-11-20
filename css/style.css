@@ -355,6 +355,10 @@ iframe {
   font-size: 2rem;
   margin-top: 2rem;
 }
+
+.flyer-content img {
+  max-width: 100%;
+}
 #pc {
   display: block;
 }
