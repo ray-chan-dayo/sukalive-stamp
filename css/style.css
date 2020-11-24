@@ -365,6 +365,29 @@ iframe {
 #sp {
   display: none;
 }
+#page-top{
+  border-radius: 50%;
+  width: 60px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	opacity:0;
+	transition: 0.3s;
+	visibility:hidden;
+}
+#page-top img {
+  width: 60px;
+}
+#page-top.fixed{
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+	opacity: 1;
+	visibility:visible;
+}
 /* 画面外にいる状態 */
 .fadein {
 	opacity : 0.1;
