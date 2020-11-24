@@ -30,7 +30,7 @@
 .mikasa-image {
     width: 100%;
     height: 700px;
-    background-image: url("../img/mikasa");
+    background-image: url("../img/mikasa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
