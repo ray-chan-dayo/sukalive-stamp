@@ -309,14 +309,45 @@ iframe {
   text-align: center;
   font-size: 1.2rem;
 }
-.order-img {
-  display: flex;
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-  margin-top: 2rem;
+
+.order-img
+{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.order-imgs {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:500px;
+	  margin-top: 2rem;
+	margin: 0 auto;
+	  text-align: center;
+}
+.order-imgs img {
+	text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.order-imgs a {
+  margin: 0 2rem;
+}
+
+.order-imgs {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:500px;
+	  margin-top: 2rem;
+	margin: 0 auto;
+	  text-align: center;
 }
 .order-img img {
+	text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
