@@ -628,3 +628,6 @@ input[type]:focus {
   color:#000;
   background-color:#febbde;
 }
+@media all and (-ms-high-contrast: none) {
+  .card-img-top{ height:100px !important; }
+}
