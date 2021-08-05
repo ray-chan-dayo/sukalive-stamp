@@ -42,3 +42,6 @@ function scrollTop(elem, duration) {
 		}
 	});
 }
+/*
+document.getElementsByClassName('ray-yumeaka-link').forEach(rayYumeakaLink => rayYumeakaLink.href='https://yumeaka.jp/')
+*/
